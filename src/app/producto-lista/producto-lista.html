@@ -19,6 +19,8 @@
           <td>{{producto.precio}}</td>
           <td>{{producto.existencia}}</td>
         </tr>
+      }@empty {
+        <li>No hay elementos disponibles.</li>
       }
     </tbody>
   </table>
